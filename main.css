@@ -13,12 +13,15 @@ body {
 
 .row1 {
   display:inline-block;
+  vertical-align: top;
 }
 .row2{
   display:inline-block;
+  vertical-align: top;
 }
 .row3{
   display:inline-block;
+  vertical-align: top;
 }
 
 .box{
@@ -26,20 +29,8 @@ body {
   width:200px;
   border:3px groove yellow;
   border-radius: 2px;
+
 }
 
-.opacity {
-  opacity: 0.7;
-  width: 100%;
-}
-.opacity:hover {
-  opacity: 1;
-}
 
-.suaron{
-  background-image: url('images/eye.jpg');
-}
 
-.ring{
-  background-image: url('images/TheOneRing.jpg');
-}
