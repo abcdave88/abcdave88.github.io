@@ -1,14 +1,59 @@
 body {
-   
-}
+   background-color: #333333;
+ }
 
 .container {
    position: relative;
-   top: 80px;
-   width: 50% ;
+   top: 50px;
+   width: 30% ;
    margin-left:  auto;
    margin-right: auto;
 
+}
+  h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration:none; 
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.neon{
+  color:#FF1177;
+  font-family: 'Press Start 2P';
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+
+.neon:hover{
+  color:#FF1177;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none; 
+}  
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF1177,
+               0 0 70px  #FF1177,
+               0 0 80px  #FF1177,
+               0 0 100px #FF1177,
+               0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FF1177,
+               0 0 35px #FF1177,
+               0 0 40px #FF1177,
+               0 0 50px #FF1177,
+               0 0 75px #FF1177;
+  }
 }
 
 .row1 {
@@ -25,10 +70,10 @@ body {
 }
 
 .box{
-  height:150px;
-  width:200px;
-  border:3px groove yellow;
-  border-radius: 2px;
+  height: 110px;
+  width: 110px;
+  border: 5px groove rgba(29, 189, 25, 0.49);
+  border-radius: 20px;
 
 }
 
