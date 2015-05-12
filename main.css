@@ -1,0 +1,45 @@
+body {
+   
+}
+
+.container {
+   position: relative;
+   top: 80px;
+   width: 50% ;
+   margin-left:  auto;
+   margin-right: auto;
+
+}
+
+.row1 {
+  display:inline-block;
+}
+.row2{
+  display:inline-block;
+}
+.row3{
+  display:inline-block;
+}
+
+.box{
+  height:150px;
+  width:200px;
+  border:3px groove yellow;
+  border-radius: 2px;
+}
+
+.opacity {
+  opacity: 0.7;
+  width: 100%;
+}
+.opacity:hover {
+  opacity: 1;
+}
+
+.suaron{
+  background-image: url('images/eye.jpg');
+}
+
+.ring{
+  background-image: url('images/TheOneRing.jpg');
+}
