@@ -47,8 +47,8 @@ $( document ).ready(function() {
     board[playMove] = currentMove;//puts player1or2 move into the correct poistion in the array
     movesMade = movesMade+1; //increments movesMade by one each time 
     $(this).children(':first').html(currentMove);//prints player move on hmtl 
-    //$(this).off('click'); 
     $(this).removeClass("box").addClass("box2");
+    //$(this).off('click'); 
     getWinner();//calls the getWinner function
     getTie();//calls the getTie function
     
@@ -88,11 +88,10 @@ function resetGame(){
     movesMade = 0;
     winner = ''; 
     $('h1').text('TicTacToe')
-    $('.box').html(''); 
-    //$('.box').on('click', updateBoard)
+    // $('.box').html(''); 
+    $('.box').on('click', updateBoard)
     $('p').html('');
     $.each($('div'), function(index, value){
-      //debugger;
     if ($(value).hasClass('box2')){
     $(value).removeClass("box2").addClass("box");
      }
