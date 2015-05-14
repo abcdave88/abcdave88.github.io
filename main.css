@@ -57,25 +57,52 @@ body {
 }
 
 .row1 {
+
   display:inline-block;
   vertical-align: top;
+  text-align: center;
 }
 .row2{
+
   display:inline-block;
   vertical-align: top;
+  text-align: center;
 }
 .row3{
+
   display:inline-block;
   vertical-align: top;
+  text-align: center;
 }
 
 .box{
   height: 110px;
-  width: 110px;
-  border: 5px groove rgba(29, 189, 25, 0.49);
+  width: 113px;
+  border: 5px groove rgba(182,255,0,0.5);
   border-radius: 20px;
-
+}
+.box2{
+  height: 110px;
+  width: 113px;
+  border: 5px groove rgba(182,255,0,0.5);
+  border-radius: 20px;
 }
 
+.box2 p {
+  font-family:'Press Start 2P';
+  margin: 28px;
+  font-size: 60px; 
+  vertical-align: 
+}
+
+.options li{
+  display: inline;
+  text-decoration: none;
+  font-family:'Press Start 2P';
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  color:#B6FF00;
+}
 
 
