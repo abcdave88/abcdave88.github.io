@@ -88,11 +88,17 @@ body {
   border-radius: 20px;
 }
 
+.box p {
+  font-family:'Press Start 2P';
+  margin: 28px;
+  font-size: 60px; 
+}
+
+
 .box2 p {
   font-family:'Press Start 2P';
   margin: 28px;
   font-size: 60px; 
-  vertical-align: 
 }
 
 .options li{
@@ -104,5 +110,7 @@ body {
   font-size: 25px;
   color:#B6FF00;
 }
+
+
 
 
